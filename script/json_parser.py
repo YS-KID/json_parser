@@ -34,7 +34,7 @@ def json_parser(name):
                   "complete": None,
                   "image_filename": image_filename}
   
-  parseredFileName = root + "__labels_to.json"
+  parseredFileName = root + "__labels.json"
   c = open(parseredFileName, 'w')
   json.dump(parsered_json, c, indent=4)
 
@@ -45,10 +45,5 @@ if __name__ == "__main__":
       fileName = os.path.join(curDir, f)
       root, ext = os.path.splitext(fileName)
       if ext == ".json" and not("__labels" in root):
-<<<<<<< HEAD
-=======
-        print(ext)
-        print(fileName)
->>>>>>> 322a331563a9e3aff427e8d28cdcd764d994ba1c
         json_parser(fileName)
 
