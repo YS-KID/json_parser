@@ -1,0 +1,45 @@
+{
+    "labels": [
+        {
+            "label_type": "box", 
+            "label_class": "donbe", 
+            "centre": {
+                "y": 1087.7142857142858, 
+                "x": 2328.571428571429
+            }, 
+            "object_id": 1, 
+            "size": {
+                "y": 607.1428571428573, 
+                "x": 604.7619047619048
+            }
+        }, 
+        {
+            "label_type": "box", 
+            "label_class": "donbe", 
+            "centre": {
+                "y": 1652.0, 
+                "x": 1758.3333333333335
+            }, 
+            "object_id": 2, 
+            "size": {
+                "y": 526.1904761904761, 
+                "x": 540.4761904761906
+            }
+        }, 
+        {
+            "label_type": "box", 
+            "label_class": "donbe", 
+            "centre": {
+                "y": 2061.5238095238096, 
+                "x": 2336.904761904762
+            }, 
+            "object_id": 3, 
+            "size": {
+                "y": 454.7619047619046, 
+                "x": 473.80952380952385
+            }
+        }
+    ], 
+    "complete": null, 
+    "image_filename": "IMG_5641.jpg"
+}
