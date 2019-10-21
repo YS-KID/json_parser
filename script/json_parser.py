@@ -15,8 +15,8 @@ def json_parser(name):
     centre_x = (rect[1][1] + rect[0][1]) / 2
     label_class = i["label"].split("-")[0]
     label = { u"size": {
-                 u"y": size_y,
-                 u"x": size_x
+                 u"x": size_y,
+                 u"y": size_x
               },
               u"label_type": u"box",
               u"label_class": label_class,
