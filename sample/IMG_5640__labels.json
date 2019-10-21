@@ -4,7 +4,7 @@
             "label_type": "box", 
             "label_class": "donbe", 
             "centre": {
-                "y": 1331.0, 
+                "y": 1691.0, 
                 "x": 1686.409090909091
             }, 
             "object_id": 1, 
@@ -17,7 +17,7 @@
             "label_type": "box", 
             "label_class": "donbe", 
             "centre": {
-                "y": 941.181818181818, 
+                "y": 2080.818181818182, 
                 "x": 2234.909090909091
             }, 
             "object_id": 2, 
@@ -30,7 +30,7 @@
             "label_type": "box", 
             "label_class": "donbe", 
             "centre": {
-                "y": 1843.4545454545455, 
+                "y": 1178.5454545454545, 
                 "x": 2271.272727272727
             }, 
             "object_id": 3, 

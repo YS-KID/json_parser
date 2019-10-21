@@ -4,14 +4,14 @@ import json
 def json_parser(name):
   a = open(name)
   b = json.load(a)
-  
+
   labels = []
-  
+
   for i, j in zip(b["shapes"], range(len(b["shapes"]))):
     rect = i["points"]
     size_y = rect[1][0] - rect[0][0]
     size_x = rect[1][1] - rect[0][1]
-    centre_y = 3022 - ((rect[1][0] + rect[0][0]) / 2)
+    centre_y = (rect[1][0] + rect[0][0]) / 2
     centre_x = (rect[1][1] + rect[0][1]) / 2
     label_class = i["label"].split("-")[0]
     label = { u"size": {
