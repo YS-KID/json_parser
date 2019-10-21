@@ -22,8 +22,8 @@ def json_parser(name):
               u"label_class": label_class,
               u"object_id": j + 1,
               u"centre": {
-                 u"y" : centre_y,
-                 u"x" : centre_x
+                 u"x" : centre_y,
+                 u"y" : centre_x
               }
             }
     labels.append(label)
